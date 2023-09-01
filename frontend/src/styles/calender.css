@@ -1,0 +1,94 @@
+.title {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textContainer {
+  line-height: 1;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.time {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.container {
+  width: 100%;
+}
+.textField {
+  width: 75px;
+  margin-left: spacing(1);
+  margin-top: 0;
+  margin-button: 0;
+  height: spacing(4.875);
+}
+.locationSelector {
+  margin-left: spacing(1);
+  height: spacing(4.875);
+}
+$spacing-value: 1rem;
+$height-value: 4.875rem;
+
+.locationSelector {
+  margin-left: $spacing-value;
+  height: $height-value;
+}
+.shortButtonText {
+  min-width: 800px;
+  display: none;
+}
+.button {
+  padding-left: spacing(1);
+  padding-right: spacing(1);
+  width: spacing(10);
+  max-width: 800px;
+  width: spacing(2);
+  font-size: 0.75rem;
+}
+
+.selectedButton {
+  background: palette-primary[400];
+  color: palette-primary[50];
+  background-color: palette.primary[500];
+  border: 1px solid palette-primary[400] !important ;
+  border-left: 1px solid palette-primary[50] !important ;
+}
+
+.selectedButton:first-of-type {
+  border-left: 1px solid palette-primary[50] !important;
+}
+
+.flexibleSpace {
+  margin: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.weekendCell {
+  background-color: rgba(palette.action.disabledBackground, 0.04);
+}
+
+.weekendCell:hover {
+  background-color: rgba(palette.action.disabledBackground, 0.04);
+}
+
+.weekendCell:focus {
+  background-color: rgba(palette.action.disabledBackground, 0.04);
+}
+
+.weekEnd {
+  background-color: rgba(palette.action.disabledBackground, 0.06);
+}

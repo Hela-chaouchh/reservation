@@ -1,0 +1,60 @@
+.nav-bar {
+  background-color: #3f51b5;
+  max-height: 5rem;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.centered-item {
+  display: flex;
+  justify-content: center;
+}
+.white-text {
+  color: #ffffff;
+}
+
+.nav-logo-container {
+  /* Ajoutez ici des styles pour le conteneur du logo */
+}
+
+.navbar-menu-container {
+  /* Ajoutez ici des styles pour le conteneur du menu */
+}
+
+.navbar-links-container {
+  /* Ajoutez ici des styles pour la liste des liens du menu */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links-container li {
+  /* Ajoutez ici des styles pour chaque élément de la liste */
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.primary-button {
+  /* Ajoutez ici des styles pour le bouton de déconnexion */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #3f51b5;
+  cursor: pointer;
+}
+.nav-logo-container {
+  padding-top: 10px;
+  max-width: 50px; /* Ajustez la largeur maximale du logo selon vos besoins */
+  max-height: 30px; /* Ajustez la hauteur maximale du logo selon vos besoins */
+}
+.menu-btn {
+  display: none;
+}
+
+/* ... Autres styles nécessaires ... */
